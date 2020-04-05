@@ -3,7 +3,7 @@ import random as ran
 import time
 
 stop=False
-def pelangi(word,to=False,tab=False):
+def pelangi(word,to=None,tab=None):
 	if tab:
 		ct=["\t" for i in range(tab)]
 	else:
