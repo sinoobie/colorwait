@@ -1,4 +1,3 @@
-from threading import Thread
 import random as ran
 import time
 
