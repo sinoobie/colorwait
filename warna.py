@@ -16,4 +16,5 @@ def pelangi(word,to=None,tab=None):
 		elif to:
 			if int(time.time()-start) == int(to):
 				break
-	print()
+		time.sleep(0.1)
+	print(end=f"\r{'  '.join(' '*len(word))}\r\033[97m",flush=True)
